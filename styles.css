@@ -1,0 +1,13 @@
+div#header {
+  font-size: 18px;
+  color: black;
+  background-color: yellow;
+}
+
+div#footer {
+  height: 50px;
+  color: black;
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=styles.css.map */

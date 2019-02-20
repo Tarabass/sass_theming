@@ -1,0 +1,5 @@
+// @import '_functions';
+@mixin panel-colors($bg-color) {
+    color: choose-contrast-color($bg-color);
+    background-color: $bg-color;
+}

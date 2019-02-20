@@ -1,0 +1,13 @@
+$font-size: 18px !default;
+$wrapper-margin: 10px auto 10px !default;
+
+div#header {
+    font-size: $font-size;
+    @include panel-colors($bg-color);
+}
+
+div#footer {
+    height: 50px;
+    color: $text-color;
+    background-color: $bg-color;
+}
