@@ -18,9 +18,7 @@ GOTO DEFAULT
         echo @import 'themes/theme_default';
     ) > styles.scss
 
-    sass --watch styles.scss styles.css
-
-    GOTO END
+    GOTO COMPILE
 
 :DEFAULT
     (
@@ -30,6 +28,9 @@ GOTO DEFAULT
         echo @import 'themes/theme_default';
     ) > styles.scss
 
+    GOTO COMPILE
+
+:COMPILE
     sass --watch styles.scss styles.css
 
     GOTO END
